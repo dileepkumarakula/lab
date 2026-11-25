@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentForm</title>
+    <style>
+        body{
+            font-family:Arial;
+            margin:0;
+            background-color:lightblue;
+        }
+        form{
+            width:350x;
+            margin:30px auto;
+            padding:20px;
+            background: white;
+            border-radius: 10px;
+        }
+        h2{
+            text-align:center;
+            color:blue;
+        }
+        input,select,textarea,button{
+            width:100%;
+            padding:8px;
+            margin:7px 0;
+        }
+        button{
+       background: blue;
+       color:white;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h2>Student Registration Form</h2>
+        <input type="text" placeholder="StudentName" required>
+        <input type="email" placeholder="Email" required>
+        <input type="tel" placeholder="Number" required>
+        <input type="date">
+        <select required>
+            <option value="">Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+        <select required>
+            <option value="">Select course</option>
+            <option>Btech</option>
+            <option>Mtech</option>
+        </select>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+    </form>
+    
+</body>
+</html>
